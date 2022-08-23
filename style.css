@@ -17,7 +17,6 @@ body{
     font-weight: bold;
 }
 
-
 .link-btn{
     background-color: rgb(235, 42, 42);
     color: white;
@@ -30,6 +29,7 @@ body{
     display: inline-block;
     padding-top: 10px;
 }
+
 /* Donate section */
 .donate{
     padding-top: 70px; 
@@ -110,6 +110,7 @@ body{
 .break{
     width: 70%;
 }
+
 /* donate Plan section */
 .main{
     
@@ -124,55 +125,78 @@ body{
 
 .feature{
     display: flex;
-    padding: 200px;
-    
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 70%;
+    column-gap: 50px;
+    font-size: 20px;
 }
 
 .food{
-    border: 10px;
-    padding: 10px;
-    height: 50px; 
-    width: 33%;
+    padding: 30px;
+    height: 350px; 
     border-radius: 5px;
-   background-color: aquamarine;
-   border-style: hidden;
+    background-color: rgb(215, 228, 223);
+    border: hidden;
+    width: 900px;
 }
+
 .shelter{
-    border: 100px;
-    padding: 10px;
-    height: 50px; 
-    width: 33%;
+    padding: 30px;
+    height: 350px; 
     border-radius: 5px;
-    background-color: rgb(236, 184, 184);
+    background-color: rgb(248, 223, 228);
+    border: hidden;
+    width: 900px;
 }
 .edu{
-    border: 10px;
-    height: 50px; 
-    width: 33%;
+    padding: 30px;
+    height: 350px; 
     border-radius: 5px;
-    background-color:  rgb(255, 249, 166);
+    background-color: rgb(255, 249, 166);
+    border: hidden;
+    width: 900px;
+}
+
+/* Bonus task */
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 50px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.company-details{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
 }
 
 /*Update section */
 .update{
     text-align: center;
-    padding-top: 50px;
     font-size: 40px;
 }
-.registration{
-    text-align: center;
-    padding-left: 300px;
-    border-style: hidden;
-    border: 100px solid rgb(255, 249, 166);
-}
 #mail-box{
-    width: 540px;
-    height: 44px;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
-    margin-left: 50px;
+    font-size: 34px; 
+    border-color: rgb(255, 249, 166);
 }
+.registration{
+    display: flex;
+    border:1px solid;
+    padding: 100px;
+    border-radius: 5px;
+    background-color: rgb(255, 249, 166);
+    margin-left: 250px;
+    margin-right: 250px;
+    border: hidden;
+ 
+}
+
 /* footer */
 .copyright{
     background-color: black;
